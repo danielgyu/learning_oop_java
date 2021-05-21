@@ -1,8 +1,13 @@
-package threeJavaClass.hismayfly;
+package threeJavaModeling.hismayfly;
 
 public class Application {
 	
 	public static void main(String[] argv) {
+
+		System.out.println("Singleton:");
+		Singleton instance = Singleton.getInstance();
+		System.out.println(instance);
+		System.out.println("");
 
 		WaterSpray ws = new WaterSpray();
 		ws.fillUp();

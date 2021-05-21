@@ -1,4 +1,4 @@
-package threeJavaClass.hismayfly;
+package threeJavaModeling.hismayfly;
 
 public class WaterSpray {
 	private int waterAmount;
