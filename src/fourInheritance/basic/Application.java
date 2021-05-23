@@ -15,5 +15,8 @@ public class Application {
 
 		System.out.println("Email:::");
 		System.out.println(s.getEmail());
+
+		System.out.println("Intanceof:::");
+		System.out.println(s instanceof Student);
 	}
 }
