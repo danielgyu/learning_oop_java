@@ -18,5 +18,11 @@ public class Application {
 
 		System.out.println("Intanceof:::");
 		System.out.println(s instanceof Student);
+
+		System.out.println("getClass:::");
+		System.out.println(s.getClass());
+
+		System.out.println("getClass.getName:::");
+		System.out.println(s.getClass().getName());
 	}
 }
